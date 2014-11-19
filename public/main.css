@@ -4,15 +4,69 @@ body {
 
 }
 
+.logotext {
+	font-family: 'Julee', cursive;
+}
+
+.navlink {
+	font-family: 'Petit Formal Script', cursive;
+	color: #000000;
+	font-weight: bold;
+}
+
 .jumbotron, .headercont {
 	background: url('img/hawaiijumbotron.jpeg');
 	background-size: cover;
+	border-radius: 7px;
 }
 
-.jumbotron h1, .jumbotron p {
+.jumbotron h1 {
+	font-family: 'Julee', cursive;
 	color: #808080;
+}
+
+.jumbotron p, .sectiontitle, h4 {
+	font-family: 'Petit Formal Script', cursive;
+	color: #808080;
+	font-weight: bold;
 }
 
 .padding20px {
 	height: 20px;
 }
+
+.jumbotext {
+	padding: 20px;
+	background: rgba(15, 15, 15, 0.85);
+	border-radius: 10px;
+	text-align: center;
+}
+.jumbotext-alt{
+	margin: 20px;
+	color: #808080;
+}
+
+.titlediv {
+	width: 100%;
+	border-bottom: 1px solid #808080;
+}
+
+.titlerow {
+	padding: 0px 30px;
+}
+.productpadded {
+	padding: 20px;
+
+}
+
+.productdiv {
+	padding: 10px;
+	border: 1px solid #808080;
+	border-radius: 5px;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
